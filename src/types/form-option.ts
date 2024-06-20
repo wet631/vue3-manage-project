@@ -18,4 +18,8 @@ export interface FormOptionList {
     activeText?: string;
     inactiveText?: string;
     required?: boolean;
+    typeTime?:String;
+    cascaderOptions?:any;
+    cascaderProps?:Object;
+    width?:string;
 }
